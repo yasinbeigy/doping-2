@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ورود | دوپینگ شیمی</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner header-modern">
+      <a href="index.html" class="logo brand-logo" aria-label="دوپینگ شیمی">
+        <img src="images/logo.svg" alt="" class="logo-mark">
+        <span class="logo-copy">
+          <span class="logo-title">دوپینگ شیمی</span>
+          <span class="logo-tagline">یادگیری مفهومی، تمرین هدفمند</span>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="منوی اصلی">
+        <ul>
+          <li><a href="index.html">صفحه اصلی</a></li>
+          <li><a href="courses.html">دوره‌ها</a></li>
+          <li><a href="about.html">درباره ما</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="login.html" class="btn btn-ghost header-login">ورود</a>
+        <a href="register.html" class="btn btn-primary header-cta">ثبت‌نام</a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="باز کردن منو" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="auth-section auth-clean">
+    <div class="container auth-container auth-centered">
+      <div class="auth-card auth-card-clean login-card">
+        <div class="auth-card-header auth-card-header-clean">
+          <h1>ورود به حساب کاربری</h1>
+          <p>برای ادامه یادگیری، شماره موبایل یا ایمیل و رمز عبورت را وارد کن.</p>
+        </div>
+
+        <form class="auth-form auth-form-clean" action="dashboard.html">
+          <label>
+            <span>شماره موبایل یا ایمیل</span>
+            <input type="text" name="username" placeholder="مثلاً 09123456789" autocomplete="username" required>
+          </label>
+          <label class="password-field">
+            <span>رمز عبور</span>
+            <span class="password-input-wrap">
+              <input id="loginPassword" type="password" name="password" placeholder="رمز عبور" autocomplete="current-password" required>
+              <button type="button" class="password-toggle" data-password-toggle aria-label="نمایش رمز عبور"><svg viewBox="0 0 24 24" class="icon password-eye-icon" aria-hidden="true"><use href="images/icons.svg#eye"></use></svg></button>
+            </span>
+          </label>
+          <div class="auth-row">
+            <label class="auth-check">
+              <input type="checkbox" name="remember">
+              <span>مرا به خاطر بسپار</span>
+            </label>
+            <a href="forgot-password.html">فراموشی رمز؟</a>
+          </div>
+          <button class="btn btn-primary btn-lg auth-submit" type="submit">ورود</button>
+        </form>
+
+        <div class="auth-divider"><span>حساب نداری؟</span></div>
+        <a href="register.html" class="btn btn-outline auth-secondary-btn">ثبت‌نام در دوپینگ شیمی</a>
+        <p class="auth-powered">قدرت‌گرفته از WebMania</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer footer-modern">
+    <div class="footer-glow footer-glow-one"></div>
+    <div class="footer-glow footer-glow-two"></div>
+    <div class="container">
+      <div class="footer-cta-card">
+        <div>
+          <span class="footer-kicker">دوپینگ شیمی</span>
+          <h2>شیمی را از حالت حفظی بیرون بیاور</h2>
+          <p>دوره‌ها طوری چیده شده‌اند که اول مفهوم را بفهمی، بعد با تمرین و آزمون مطمئن شوی مسیر را درست آمده‌ای.</p>
+        </div>
+        <div class="footer-cta-actions">
+          <a href="courses.html" class="btn btn-primary">مشاهده دوره‌ها</a>
+          <a href="about.html" class="btn btn-outline footer-outline">آشنایی با تیم</a>
+        </div>
+      </div>
+
+      <div class="footer-grid footer-modern-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo footer-logo">
+            <img src="images/logo.svg" alt="" class="logo-mark">
+            <span class="logo-copy">
+              <span class="logo-title">دوپینگ شیمی</span>
+              <span class="logo-tagline">برای فهمیدن، نه فقط حفظ کردن</span>
+            </span>
+          </a>
+          <p>یک مسیر ساده و منظم برای دانش‌آموزهایی که می‌خواهند شیمی را با توضیح روشن، مثال کافی و تمرین هدفمند یاد بگیرند.</p>
+        </div>
+        <div class="footer-column">
+          <h4>مسیر یادگیری</h4>
+          <ul>
+            <li><a href="courses.html">همه دوره‌ها</a></li>
+            <li><a href="course-detail.html">نمونه دوره</a></li>
+            <li><a href="exam.html">آزمون آنلاین</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>راهنما</h4>
+          <ul>
+            <li><a href="about.html">درباره ما</a></li>
+            <li><a href="index.html#faq">سوالات پرتکرار</a></li>
+            <li><a href="#">برنامه مطالعه</a></li>
+          </ul>
+        </div>
+        <div class="footer-column footer-contact-card">
+          <h4>ارتباط با ما</h4>
+          <ul>
+            <li><a href="mailto:support@dopingshimi.ir">support@dopingshimi.ir</a></li>
+            <li><a href="tel:02112345678">۰۲۱-۱۲۳۴۵۶۷۸</a></li>
+            <li><a href="#">اینستاگرام دوپینگ شیمی</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>تمام حقوق محفوظ است © ۱۴۰۵ دوپینگ شیمی</p>
+        <p>طراحی شده برای یادگیری آرام، دقیق و نتیجه‌محور.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script type="module" src="js/motion.js"></script>
+</body>
+</html>
